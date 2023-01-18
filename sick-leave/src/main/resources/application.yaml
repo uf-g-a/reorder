@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sick-leave
+  datasource:
+    url: jdbc:postgresql://localhost:5555/sick
+    username: postgres
+    password: postgres
+
+server:
+  port: 8082
