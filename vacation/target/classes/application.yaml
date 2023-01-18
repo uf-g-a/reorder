@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: vacation
+  datasource:
+    url: jdbc:postgresql://localhost:5555/vacation
+    username: postgres
+    password: postgres
+
+server:
+  port: 8080
