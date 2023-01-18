@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pay-sheet
+  datasource:
+    url: jdbc:postgresql://localhost:5555/pay
+    username: postgres
+    password: postgres
+
+server:
+  port: 8081
